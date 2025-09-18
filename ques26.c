@@ -6,6 +6,6 @@ if(i-- ==j)
 printf("i=%d",--i);
 else 
 printf("j=%d",++j);
-printf("\n\n");
+
 return 0;
 }

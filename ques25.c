@@ -6,6 +6,6 @@ if(!printf(""))
 printf("%d %d",i,j);
 else 
 printf("%d %d", i++,++j);
-printf("\n\n");
+
 return 0;
 }

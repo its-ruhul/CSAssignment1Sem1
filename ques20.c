@@ -14,6 +14,5 @@ default:
 printf("Bye");
 break;
 }
-printf("\n\n");
 return 0;
 }

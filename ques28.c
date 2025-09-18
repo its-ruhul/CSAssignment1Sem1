@@ -5,6 +5,6 @@ if("May i get in")
 printf("yes, Get in");
 else 
 printf("No");
-printf("\n\n");
+
 return 0;
 }

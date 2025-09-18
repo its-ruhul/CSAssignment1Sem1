@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+//error: redefinition of variable a.
+//fix: removed 'int' from the redeclaration of 'a' inside the case labels.
+
+//warning: break statement missing in switch cases.
+
 void main() {
 
     int a = 5;
@@ -8,9 +13,9 @@ void main() {
 
     switch(2) {
 
-        case 0: int a = 8;
+        case 0: a = 8;
 
-        case 1: int a = 10;
+        case 1: a = 10;
 
         case 2: ++a;
 

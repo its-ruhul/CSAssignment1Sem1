@@ -13,6 +13,6 @@ default:
 printf("Default block excuted");
 break;
 }
-printf("\n\n");
+
 return 0;
 }

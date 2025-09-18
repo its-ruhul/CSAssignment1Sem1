@@ -9,6 +9,6 @@ printf("Hai");
 default:
 printf("Bye");
 }
-printf("\n\n");
+
 return 0;
 }
