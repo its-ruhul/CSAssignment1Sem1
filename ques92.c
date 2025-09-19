@@ -11,6 +11,6 @@ default:
 printf("inside default");
 break;
 }
-printf("\n\n");
+
 return 0;
 }

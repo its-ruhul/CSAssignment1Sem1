@@ -6,6 +6,6 @@ if(m==n)
 printf("m and n are equal");
 else 
 printf("m and n are not equal");
-printf("\n\n");
+
 return 0;
 }

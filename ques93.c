@@ -17,6 +17,6 @@ case 7:
 printf("inside case 7");
 break;
 }
-printf("\n\n");
+
 return 0;
 }

@@ -6,6 +6,6 @@ if(i==j)
 printf("Equal");
 else 
 printf("Not Equal");
-printf("\n\n");
+
 return 0;
 }

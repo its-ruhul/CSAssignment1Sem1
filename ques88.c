@@ -6,6 +6,6 @@ if(x==x)
 printf("hai this is if");
 else 
 printf("Nhai this is else");
-printf("\n\n");
+
 return 0;
 }

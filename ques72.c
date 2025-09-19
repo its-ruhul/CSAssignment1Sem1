@@ -1,13 +1,18 @@
+//error: case label does not reduce to an integer constant.
+//fix
+
 #include<stdio.h>
 
-void main(){
+//warning: 'void main' should be 'int main'.
+
+int main(){
 
     int a = 1;
 
     switch(a / 2){
 
-        case NULL:
-            printf("Case NULL \n");
+        case 1:
+            printf("Case ONE \n");
             break;
 
         case 0:
@@ -18,4 +23,6 @@ void main(){
             printf("DEFAULT \n");
             break;
     }
+
+    return 0;
 }

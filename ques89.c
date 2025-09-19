@@ -1,15 +1,19 @@
 #include<stdio.h>
 #define FALSE -1
-#define NULL 0
+#define ZERO 0
 #define TRUE 1
+
+//error: 'Null' undeclared.
+//fix: change 'Null' to 'ZERO' and declared.
+
 int main()
 {
-if(Null)
-printf("NULL");
-else if(FALSE)
-printf("TRUE");
-else
-printf("FALSE");
-printf("\n\n");
-return 0;
+    if(ZERO)
+        printf("NULL");
+    else if(FALSE)
+        printf("TRUE");
+    else
+        printf("FALSE");
+
+    return 0;
 }

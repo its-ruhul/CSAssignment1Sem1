@@ -1,5 +1,12 @@
 #include<stdio.h>
 
+//error: prinf should be printf.
+
+//error: missing return type of main function.
+//fixed: added return.
+
+//error: missing '}' at the end of main function.
+
 int main(){
 
     int m = 40, n = 20;
@@ -11,5 +18,8 @@ int main(){
         printf("m is less than n");
     }
     else {
-        prinf("m is equal to n");
+        printf("m is equal to n");
     }
+
+    return 0;
+}

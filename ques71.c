@@ -1,10 +1,19 @@
 #include <stdio.h>
 
-void main() {
+//error: switch expression results in a non-integer type.
+//fix: modified the switch expression to ensure it results in an integer type.
+
+//warning: return type of 'main' is not 'int'.
+//fix: changed the return type of 'main' from 'void' to 'int'.
+
+//warning: 'break' in default case.
+//fix: removed 'break'
+
+int main() {
 
     int a = 2;
 
-    switch (a / 2 * 1.5){
+    switch (a){
 
         case 1:
             printf("One...");
@@ -16,6 +25,7 @@ void main() {
 
         default:
             printf("Other...");
-            break;
     }
+
+    return 0;
 }
