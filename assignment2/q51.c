@@ -16,3 +16,4 @@ printf("default block executed");
 break;
 }
 return 0;
+}
