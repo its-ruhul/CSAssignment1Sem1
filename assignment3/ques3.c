@@ -10,7 +10,7 @@ int main(){
   printf("Enter the number: ");
   scanf("%d", &num);
 
-  num = original;
+  original = num;
 
   while(num!=0){
 
@@ -18,6 +18,8 @@ int main(){
     reverse = (reverse+digit)*10;
     num = num/10;
   }
+
+  reverse = reverse / 10;
 
   if (original == reverse){
     printf("The number is a palindrome \n");
