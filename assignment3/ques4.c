@@ -18,3 +18,4 @@ int main(){
   //power of 2 becomes more than the decimal.
 
   printf("%d", maxPower2);
+}
