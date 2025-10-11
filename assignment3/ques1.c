@@ -8,14 +8,14 @@ int main(){
   int result;
 
   printf("Enter the first number:");
-  scnaf("%d", &num1);
+  scanf("%d", &num1);
 
   printf("Enter the second number:");
-  scnaf("%d", &num2);
+  scanf("%d", &num2);
 
   printf("Choose your operation:\n");
-  printf("add: a, subtract: s, multiply: m, divide: d");
-  scanf("%d", &operator);
+  printf("add(a), subtract(s), multiply(m), divide(d): ");
+  scanf(" %c", &operator);
 
   switch(operator){
 

@@ -12,10 +12,6 @@ int main(){
   printf("Enter the decimal no.: ");
   scanf("%d", &decimal);
 
-  //max power of 2.
-  //to do that I shall make a loop which increments power of 2 till the
-  //power of 2 becomes more than the decimal.
-
   int i = 1;
   while (decimal != 0){
 
