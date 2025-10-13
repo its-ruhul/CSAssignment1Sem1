@@ -4,6 +4,8 @@ int main() {
 
   int array[] = {0, 1, 2, 3};
 
+  int x[3] = {0, 1, 2};
+
   array[4] = 4;
   array[5] = 5;
 

@@ -3,6 +3,8 @@
 int main() {
 
   FILE *fp;
+
+  const int num = 12; // defining a constant value.
   
   printf("Enter value using getchar(): ");
   char name = getchar();      //getchar() requires you to enter a char and then enter.
